@@ -15,6 +15,7 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Sinan's Label"));
+			root.getChildren().add(new Label("Sinan's Branch"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setTitle("Mehedi's Repo");
 			primaryStage.setScene(scene);
